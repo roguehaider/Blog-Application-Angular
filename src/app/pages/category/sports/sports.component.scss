@@ -1,0 +1,14 @@
+.all-blogs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1500px; // Adjust as needed for your design
+  width: 100%;
+
+  .blog-slider-wrapper {
+    flex: 1;
+    overflow: hidden; // Ensure content doesn't overflow the container
+  }
+}
